@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid red;
+  padding: 5px 15px;
+}
+
+th {
+  color: rgb(8, 195, 89);
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+  padding: 0px 20px;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}

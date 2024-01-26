@@ -7,7 +7,7 @@ h1:hover {
 }
 
 .box:focus {
-  color: blue;
+
   font-weight: 800;
 }
 
@@ -23,17 +23,13 @@ li:first-child {
   color: yellowgreen;
 }
 
-li:last-child {
-  background-color: fuchsia;
-}
+
 
 li:nth-child(3n) {
   color: sandybrown;
 }
 
-li:nth-child(2n+1) {
-  background-color: cornflowerblue;
-}
+
 
 h3::before {
   content: 'Hello ';
