@@ -1,0 +1,46 @@
+h1:hover {
+  color: skyblue;
+  background-color: blue;
+
+
+  font-weight: 700;
+}
+
+.box:focus {
+  color: blue;
+  font-weight: 800;
+}
+
+a:visited {
+  color: rgb(179, 18, 7);
+}
+
+li {
+  color: aqua;
+}
+
+li:first-child {
+  color: yellowgreen;
+}
+
+li:last-child {
+  background-color: fuchsia;
+}
+
+li:nth-child(3n) {
+  color: sandybrown;
+}
+
+li:nth-child(2n+1) {
+  background-color: cornflowerblue;
+}
+
+h3::before {
+  content: 'Hello ';
+}
+
+.special::after {
+  content: 'Hello';
+  background-color: darkgray;
+  font-size: 50px;
+}
