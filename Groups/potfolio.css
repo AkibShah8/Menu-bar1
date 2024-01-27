@@ -12,7 +12,7 @@ nav {
 
 .nav-title {
   font-weight: 800;
-  font-size: 54px;
+  font-size: 40px;
 }
 
 nav ul {
@@ -21,9 +21,14 @@ nav ul {
 
 nav li {
   list-style: none;
-  margin-left: 50px;
+  margin-left: 30px;
+  color: #FD6E0A;
 }
 
 .text-primary {
+  color: #FD6E0A;
+}
+
+button {
   color: #FD6E0A;
 }
