@@ -99,3 +99,28 @@ samp {
 .images:hover .shape {
   bottom: 40px;
 }
+
+/* treding-section- */
+.center-text h2 {
+  color: #111;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.center-text span {
+  color: #f16806;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 2rem;
+
+}
+
+.rom {
+  position: relative;
+  transition: all.40s;
+}
