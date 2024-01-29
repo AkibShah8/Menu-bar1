@@ -100,17 +100,20 @@ samp {
   bottom: 40px;
 }
 
-/* treding-section- */
+/* treding-section-css */
 .center-text h2 {
   color: #111;
   font-size: 28px;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+
 }
 
 .center-text span {
   color: #f16806;
+
 }
 
 .products {
@@ -120,7 +123,18 @@ samp {
 
 }
 
-.rom {
+.row {
   position: relative;
-  transition: all.40s;
+  transition: all .40s;
+
+
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+  transition: all .40s;
+  margin-right: 10px;
+
+
 }
