@@ -84,3 +84,119 @@ section {
   align-items: center;
 
 }
+
+.main-tex h5 {
+  color: rgb(6, 105, 203);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+
+}
+
+.main-tex h1 {
+  color: #000;
+  font-size: 65px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 6px 0 10px;
+}
+
+.main-tex h1 samp {
+  color: blue;
+}
+
+.main-tex p {
+  color: rgb(60, 234, 234);
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.main-btn {
+  display: inline-block;
+  color: #111;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid #111;
+  padding: 12px 25px;
+  transform: all .42s ease;
+}
+
+.main-btn:hover {
+  background-color: lightslategray;
+  color: #fff;
+}
+
+.main-btn i {
+  vertical-align: middle;
+
+}
+
+.down-arrow {
+  position: absolute;
+  top: 85%;
+  right: 11%;
+}
+
+.down i {
+  font-size: 30px;
+  color: #2c2c2c;
+  border: 2px solid #2c2c2c;
+  border-radius: 50px;
+  padding: 12px 12px;
+}
+
+.down i:hover {
+  background-color: #000;
+  color: #fff;
+  transform: all .42s ease;
+}
+
+.samp h1 {
+  color: aqua;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 20px 10%;
+  box-shadow: 0px 0px 10px rgb(0 0 0/10%);
+}
+
+
+/* trending-product-css */
+.center-text h2 {
+  color: #111;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+.center-text span {
+  color: sandybrown;
+
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  gap: 6rem;
+}
+
+.Row {
+  position: relative;
+  transform: all .40s;
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+  transform: all .40s;
+}
+
+.row img:hover {
+  transform: scale(0.9);
+}
