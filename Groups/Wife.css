@@ -174,29 +174,3 @@ header.sticky {
   margin-bottom: 60px;
 
 }
-
-.center-text span {
-  color: sandybrown;
-
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
-  gap: 6rem;
-}
-
-.Row {
-  position: relative;
-  transform: all .40s;
-}
-
-.row img {
-  width: 100%;
-  height: auto;
-  transform: all .40s;
-}
-
-.row img:hover {
-  transform: scale(0.9);
-}

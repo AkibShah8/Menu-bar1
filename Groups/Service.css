@@ -100,41 +100,11 @@ samp {
   bottom: 40px;
 }
 
-/* treding-section-css */
-.center-text h2 {
-  color: #111;
-  font-size: 28px;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 40px;
-  font-weight: bold;
 
-}
-
-.center-text span {
-  color: #f16806;
-
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-  gap: 2rem;
-
-}
-
-.row {
-  position: relative;
-  transition: all .40s;
-
-
-}
-
-.row img {
-  width: 100%;
-  height: auto;
-  transition: all .40s;
-  margin-right: 10px;
-
-
+.rwo {
+  background-color: #FD6E0A;
+  width: 200px;
+  height: 150px;
+  margin-top: 30px;
+  display: inline-block;
 }
