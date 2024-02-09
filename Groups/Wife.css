@@ -76,7 +76,7 @@ section {
 .main-Home {
   width: 100%;
   height: 100vh;
-  background-image: url(/Groups/banner-3.png);
+  background-image: url(/Groups/Image/Benar.jpg);
   background-position: center;
   background-size: cover;
   display: grid;
@@ -109,7 +109,6 @@ section {
 .main-tex p {
   color: rgb(60, 234, 234);
   font-size: 30px;
-  font-style: italic;
   margin-bottom: 20px;
 }
 
@@ -131,57 +130,18 @@ section {
 
 .main-btn i {
   vertical-align: middle;
-
-}
-
-.down-arrow {
-  position: absolute;
-  top: 85%;
-  right: 11%;
-}
-
-.down i {
-  font-size: 30px;
-  color: #2c2c2c;
-  border: 2px solid #2c2c2c;
-  border-radius: 50px;
-  padding: 12px 12px;
-}
-
-.down i:hover {
-  background-color: #000;
-  color: #fff;
-  transform: all .42s ease;
-}
-
-.samp h1 {
-  color: aqua;
-}
-
-header.sticky {
-  background: #fff;
-  padding: 20px 10%;
-  box-shadow: 0px 0px 10px rgb(0 0 0/10%);
-}
-
-
-/* trending-product-css */
-.center-text h2 {
-  color: #111;
-  font-size: 28px;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 60px;
-
-}
-
-.down-arrow {
-  text-align: right;
 }
 
 .pheading {
-  color: aqua;
+  color: rgb(12, 14, 14);
+  text-align: right;
+  font-size: 30px;
+  padding: 40px 0px;
   text-align: center;
+}
+
+span {
+  color: red;
 }
 
 /* products */
