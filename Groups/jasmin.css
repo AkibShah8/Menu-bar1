@@ -8,8 +8,9 @@
 }
 
 .card img {
-  height: 250px;
+  height: auto;
   width: 100%;
+  transition: all .40s;
 
 }
 
@@ -53,10 +54,29 @@
   border: 1px solid #f63e4e;
   border-radius: 30px;
 
+
+
+
+}
+
+.card .box .btn a {
+  text-decoration: none;
+  color: #f63e4e;
+
 }
 
 .card .box .btn:hover {
   cursor: pointer;
   background-color: #f63e4e;
   color: white;
+
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card .btn a {
+  color: aqua;
 }
